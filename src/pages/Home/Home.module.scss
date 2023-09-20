@@ -1,0 +1,113 @@
+.wrapper {
+    background-image: url(https://shopeefood.vn/app/assets/img/main-banner.jpg?45bff8c9ec408a5ba51f9fdef662324e);
+    background-size: cover;
+    height: 100%;
+    z-index: 0;
+    margin-top: 70px;
+    color: #fff;
+    background-color: #f2f2f2;
+}
+
+.inner {
+    width: 1200px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 470px auto;
+    column-gap: 40px;
+}
+
+.content-left {
+    padding-top: 180px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 24px;
+}
+
+.local {
+    font-size: 15px;
+}
+
+.content-right {
+    height: 100%;
+}
+
+.main-right {
+    height: 100%;
+    margin-top: 48px;
+}
+
+.user-get-local {
+    width: 100%;
+    height: 49px;
+    background-color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.inner-get-local {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0 17px 0 40px;
+}
+
+.get-local-left {
+    font-size: 16px;
+    color: var(--primary);
+}
+
+.get-local-right {
+    color: var(--primary);
+}
+
+.shop-list {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 15px 40px 15px 40px;
+}
+
+.genre-select {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.selectbtn {
+    color: #0288d1;
+    margin-right: 40px;
+    font-size: 16px;
+    padding: 10px 0 10px 0;
+}
+
+.active {
+    padding: 10px 0 10px 0;
+    color: #0288d1;
+}
+
+.select-local {
+    height: 40px;
+    border: 1px solid rgba(22, 24, 35, 0.12);
+    outline: none;
+    border-radius: 4px;
+}
+
+.more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.more-btn {
+    color: #0288d1;
+}

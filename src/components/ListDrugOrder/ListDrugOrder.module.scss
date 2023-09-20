@@ -1,0 +1,78 @@
+.rows-2 {
+    display: grid;
+    border-bottom: 1px solid rgba(22, 24, 35, 0.12);
+    grid-template-columns: 10% 15% 15% 15% 15% 15% 15%;
+    padding: 10px 0 10px 0;
+}
+
+.col {
+    padding: 0 5px 0 5px;
+}
+
+.col-1 {
+    text-align: center;
+}
+
+.col-2 {
+    min-width: 14.19%;
+}
+
+.col-3 {
+    min-width: 17.61%;
+}
+
+.col-4 {
+    min-width: 24.29%;
+}
+
+.col-5 {
+    min-width: 18.47%;
+}
+
+.col-6 {
+    min-width: 9.05%;
+    text-align: center;
+}
+
+.col-7 {
+    text-align: center;
+    min-width: 11.62%;
+}
+
+.col-8 {
+    text-align: center;
+}
+
+.col-9 {
+    text-align: center;
+}
+
+.complete {
+    text-align: center;
+    width: 80px;
+    border-radius: 3px;
+    background: #6cc942;
+    padding: 5px 0 5px 0;
+}
+
+.incomplete {
+    text-align: center;
+    width: 80px;
+    border-radius: 3px;
+    background: #9fa19e;
+    padding: 5px 0 5px 0;
+}
+
+.add-btn {
+    border: 1px solid #ee4d2d;
+    color: #ee4d2d;
+    cursor: pointer;
+    border-radius: 2px;
+    background-color: #ee4d2d;
+    color: #fff;
+    padding: 5px 8px 5px 8px;
+
+    &:hover {
+        opacity: 0.8;
+    }
+}

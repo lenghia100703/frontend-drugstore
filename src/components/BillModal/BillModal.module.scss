@@ -1,0 +1,48 @@
+.dark-bg {
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100vw;
+    height: 100vh;
+    z-index: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: fixed;
+}
+
+.container {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: fixed;
+    width: 900px;
+    height: auto;
+    background: #fff;
+    color: white;
+    z-index: 10;
+    border-radius: 8px;
+    padding: 20px 30px 20px 30px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.title {
+}
+
+.close {
+    cursor: pointer;
+    font-size: 20px;
+    z-index: 20;
+    top: 35.5%;
+    left: 57.5%;
+    transform: translate(-50%, -50%);
+    position: fixed;
+}
+
+.content {
+    height: 100%;
+    color: black;
+}

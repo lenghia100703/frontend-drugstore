@@ -1,0 +1,53 @@
+.rows-2 {
+    display: grid;
+    border-bottom: 1px solid rgba(22, 24, 35, 0.12);
+    grid-template-columns: 4.77% 14.19% 17.61% 24.29% 10% 9.05% 11.62% 8.47%;
+    padding: 10px 0 10px 0;
+}
+
+.col {
+    padding: 0 5px 0 5px;
+}
+
+.col-1 {
+    text-align: center;
+}
+
+.col-2 {
+    min-width: 14.19%;
+}
+
+.col-3 {
+    min-width: 17.61%;
+}
+
+.col-4 {
+    min-width: 24.29%;
+}
+
+.col-5 {
+    min-width: 18.47%;
+}
+
+.col-6 {
+    min-width: 9.05%;
+    text-align: center;
+}
+
+.col-7 {
+    text-align: center;
+    min-width: 11.62%;
+}
+
+.col-8 {
+    text-align: center;
+}
+
+.complete {
+    width: 90px;
+    border-radius: 3px;
+    background: #6cc942;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 0 5px 0;
+}

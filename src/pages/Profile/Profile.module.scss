@@ -1,0 +1,117 @@
+.wrapper {
+    background-color: #fff;
+    width: 990px;
+    margin-left: 200px;
+    margin-top: -160px;
+    height: 100%;
+    padding: 10px 24px 30px 24px;
+}
+
+.header {
+    position: relative;
+    padding-bottom: 16px;
+    &:after {
+        content: '';
+        border-bottom: 1px solid rgba(22, 24, 35, 0.12);
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+}
+
+.user-info {
+    margin-top: 36px;
+}
+
+.user-name {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.full-name {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.email {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.input-fullname {
+    height: 40px;
+    width: 450px;
+    outline: none;
+    padding: 12px;
+}
+
+.input-username {
+    height: 40px;
+    width: 450px;
+    outline: none;
+    padding: 12px;
+}
+
+.input-email {
+    height: 40px;
+    width: 450px;
+    outline: none;
+    padding: 12px;
+}
+
+.gender {
+    margin-left: 36px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.birthday {
+    margin-left: 28px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.select-birthday {
+    margin-right: 8px;
+    height: 40px;
+    width: 144.66px;
+}
+
+.save {
+    margin-left: 110px;
+}
+
+.save-btn {
+    border: 1px solid #ee4d2d;
+    color: #ee4d2d;
+    padding: 8px 14px;
+    cursor: pointer;
+    border-radius: 2px;
+    font-size: 16px;
+    background-color: #ee4d2d;
+    color: #fff;
+    width: 70px;
+
+    &:hover {
+        opacity: 0.8;
+    }
+}
+
+.title {
+    font-size: 16px;
+    text-align: right;
+    width: 10%;
+    margin-right: 16px;
+}
+
+.role {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+}

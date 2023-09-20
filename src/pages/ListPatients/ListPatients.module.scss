@@ -1,0 +1,72 @@
+.wrapper {
+    margin-top: 70px;
+    padding: 20px;
+}
+
+.title {
+    text-align: center;
+    margin: 20px 0 40px 0;
+}
+
+.body {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+}
+
+.table-address-header {
+    padding: 10px 20px 0 20px;
+}
+
+.rows-1 {
+    display: grid;
+    border-bottom: 1px solid rgba(22, 24, 35, 0.12);
+    grid-template-columns: 10% 22% 22% 22% 22%;
+}
+
+.rows-2 {
+    display: grid;
+    border-bottom: 1px solid rgba(22, 24, 35, 0.12);
+    grid-template-columns: 10% 22% 22% 22% 22%;
+    padding: 10px 0 10px 0;
+}
+
+.col {
+    padding: 0 5px 0 5px;
+}
+
+.col-1 {
+    text-align: left;
+}
+
+.col-2 {
+    min-width: 14.19%;
+}
+
+.col-3 {
+    min-width: 17.61%;
+}
+
+.col-4 {
+    min-width: 24.29%;
+}
+
+.col-5 {
+    text-align: center;
+    min-width: 18.47%;
+}
+
+.table-address-body {
+    padding: 5px 20px 5px 20px;
+    font-size: 1.3rem;
+}
+
+.complete {
+    width: 90px;
+    border-radius: 3px;
+    background: #6cc942;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 0 5px 0;
+}
